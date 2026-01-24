@@ -59,13 +59,13 @@ const Projects: React.FC = () => {
       description:
         "Proiect caritabil realizat în parteneriat cu Primăria Târgu Neamț, în cadrul căruia elevii liceului au donat cărți ce au fost valorificate la Târgul de Crăciun al orașului. Fondurile obținute au fost direcționate către proiectul caritabil „Suflet pentru Suflet”, contribuind activ la sprijinirea comunității locale.",
       images: [
-        "/assets/projects/casutacaritabila/616124510_1250807050276923_3802822043688542984_n.jpg",
-        "/assets/projects/casutacaritabila/616134480_1649379739765576_6535386621141406109_n.jpg",
-        "/assets/projects/casutacaritabila/616763781_2094642784641794_3353313187256877296_n.jpg",
-        "/assets/projects/casutacaritabila/617568150_1379798533435822_1892814706606047646_n.jpg",
-        "/assets/projects/casutacaritabila/617706662_1311591870992814_7712772581881286200_n.jpg",
-        "/assets/projects/casutacaritabila/617722305_899209325885501_6186363950726394535_n.jpg",
-        "/assets/projects/casutacaritabila/619675822_2417692682079720_3909337245499773608_n.jpg",
+        "assets/projects/casutacaritabila/616124510_1250807050276923_3802822043688542984_n.jpg",
+        "assets/projects/casutacaritabila/616134480_1649379739765576_6535386621141406109_n.jpg",
+        "assets/projects/casutacaritabila/616763781_2094642784641794_3353313187256877296_n.jpg",
+        "assets/projects/casutacaritabila/617568150_1379798533435822_1892814706606047646_n.jpg",
+        "assets/projects/casutacaritabila/617706662_1311591870992814_7712772581881286200_n.jpg",
+        "assets/projects/casutacaritabila/617722305_899209325885501_6186363950726394535_n.jpg",
+        "assets/projects/casutacaritabila/619675822_2417692682079720_3909337245499773608_n.jpg",
       ],
     },
     {

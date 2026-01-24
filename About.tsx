@@ -23,7 +23,7 @@ const About: React.FC = () => {
           </div>
           <div className="about-content">
             <div className="about-image">
-              <img src="/assets/profile/Photoprofile.jpg" alt="Stan Radu Gabriel" />
+              <img src="assets/profile/Photoprofile.jpg" alt="Stan Radu Gabriel" />
             </div>
             <div className="about-text">
               <h3>Bună! Mă bucur să te cunosc</h3>
