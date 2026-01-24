@@ -23,7 +23,7 @@ const About: React.FC = () => {
           </div>
           <div className="about-content">
             <div className="about-image">
-              <img src="assets/profile/Photoprofile.jpg" alt="Stan Radu Gabriel" />
+              <img src="/assets/profile/Photoprofile.jpg" alt="Stan Radu Gabriel" />
             </div>
             <div className="about-text">
               <h3>Bună! Mă bucur să te cunosc</h3>
@@ -42,9 +42,9 @@ const About: React.FC = () => {
         <div className="modal" onClick={closeCVModal}>
           <div className="modal-content">
             <span className="close-btn" onClick={closeCVModal}>&times;</span>
-            <img src="assets/CV/CV original.jpg" alt="CV Stan Radu Gabriel" />
+            <img src="/assets/CV/CV original.jpg" alt="CV Stan Radu Gabriel" />
             <div style={{ position: 'absolute', bottom: 20, left: 20 }}>
-              <a href="assets/CV/CV original.jpg" download="CV_Stan_Radu_Gabriel.jpg" className="btn btn-outline" style={{ marginRight: 10 }}>Descarcă CV</a>
+              <a href="/assets/CV/CV original.jpg" download="CV_Stan_Radu_Gabriel.jpg" className="btn btn-outline" style={{ marginRight: 10 }}>Descarcă CV</a>
               <button className="btn btn-outline" onClick={closeCVModal}>Înapoi</button>
             </div>
           </div>

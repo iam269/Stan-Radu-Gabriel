@@ -150,10 +150,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(220, 220, 255, 0.9), rgba(220, 220, 255, 0.9)),
-                url('https://via.placeholder.com/1920x1080/cccccc/000000?text=Hero+Background');
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(135deg, rgba(220, 220, 255, 0.9), rgba(220, 220, 255, 0.9));
     position: relative;
 }
 
@@ -319,6 +316,23 @@ body {
     transform: scale(1.1);
 }
 
+.project-images {
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.project-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
 .carousel-btn {
     position: absolute;
     top: 50%;
@@ -370,6 +384,132 @@ body {
 .project-content p {
     color: #666;
     line-height: 1.6;
+}
+
+/* Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-left {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.modal-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.load-more-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.recent-projects-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2563eb;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.single-image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.single-project-image {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2563eb;
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+    background: #1d4ed8;
+}
+
+.prev-btn {
+    left: 20px;
+}
+
+.next-btn {
+    right: 20px;
+}
+
+.modal-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.modal-images img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 /* Gallery Section */
@@ -657,4 +797,102 @@ body {
     .hero-buttons {
         gap: 15px;
     }
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark .navbar {
+  background-color: rgba(26, 26, 26, 0.95);
+}
+
+.dark .navbar-brand {
+  color: #3b82f6;
+}
+
+.dark .navbar-menu a {
+  color: #ffffff;
+}
+
+.dark .about {
+  background-color: #2a2a2a;
+}
+
+.dark .projects {
+  background-color: #1a1a1a;
+}
+
+.dark .project-card {
+  background: #333;
+  color: #ffffff;
+}
+
+.dark .section-header h2 {
+  color: #ffffff;
+}
+
+.dark .about-text p {
+  color: #cccccc;
+}
+
+.dark .hero {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.9), rgba(37, 99, 235, 0.9));
+}
+
+.dark .hero h1 {
+  color: #ffffff;
+}
+
+.dark .hero p {
+  color: #cccccc;
+}
+
+.dark .hero .highlight {
+  color: #3b82f6;
+}
+
+.dark .btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.dark .btn-outline {
+  color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.dark .btn-outline:hover {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #1a1a1a;
+  transition: color 0.3s ease;
+  margin-left: 20px;
+}
+
+.theme-toggle:hover {
+  color: #2563eb;
+}
+
+.dark .theme-toggle {
+  color: #ffffff;
+}
+
+.dark .theme-toggle:hover {
+  color: #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .theme-toggle {
+    display: none;
+  }
 }

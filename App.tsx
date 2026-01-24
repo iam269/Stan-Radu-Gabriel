@@ -4,13 +4,9 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import About from './About';
 import Projects from './Projects';
+import AllProjects from './AllProjects';
 import Contact from './Contact';
 import Footer from './Footer';
-import BalulBobocilor from './BalulBobocilor';
-import EcoCreatii from './EcoCreatii';
-import OrnareaClaselor from './OrnareaClaselor';
-import RaftulMosCraciun from './RaftulMosCraciun';
-import EvenimentArtisticCaritabil from './EvenimentArtisticCaritabil';
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -138,15 +134,13 @@ const App: React.FC = () => {
     </>
   );
 
+  const basename = import.meta.env.PROD ? '/Stan-Radu-Gabriel/' : '/';
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/balul-bobocilor" element={<BalulBobocilor />} />
-        <Route path="/eco-creatii" element={<EcoCreatii />} />
-        <Route path="/ornarea-claselor" element={<OrnareaClaselor />} />
-        <Route path="/raftul-mos-craciun" element={<RaftulMosCraciun />} />
-        <Route path="/eveniment-artistic-caritabil" element={<EvenimentArtisticCaritabil />} />
+        <Route path="/projects" element={<><Navbar /><AllProjects /><Footer /></>} />
       </Routes>
     </BrowserRouter>
   );

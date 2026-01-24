@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2015",
-    "module": "ES2015",
+    "module": "ESNext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -9,7 +9,8 @@
     "outDir": "./",
     "rootDir": "./",
     "noEmitOnError": true,
-    "jsx": "react"
+    "jsx": "react",
+    "types": ["vite/client"]
   },
   "include": ["script.tsx", "*.tsx"],
   "exclude": ["node_modules"]
