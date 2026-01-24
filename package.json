@@ -1,0 +1,39 @@
+{
+  "name": "stan-radu-gabriel",
+  "version": "1.0.0",
+  "description": "Hello! 👋 I'm Stan Radu Gabriel, a passionate 10th-grade student and dedicated member of the Student Council at \"Ștefan cel Mare\" National College in Romania. This website was created by Ioniță Aurel-Mihai. This website is my personal portfolio project, showcasing my journey as a student leader committed to improving our school community through innovative initiatives and collaborative projects. Discover the impact we're making together! 🌟",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "postbuild": "copy dist\\index.html dist\\404.html",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam269/Stan-Radu-Gabriel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/iam269/Stan-Radu-Gabriel/issues"
+  },
+  "homepage": "https://github.com/iam269/Stan-Radu-Gabriel#readme",
+  "devDependencies": {
+    "@types/react": "^19.2.9",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "gh-pages": "^6.3.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.13.0"
+  }
+}
