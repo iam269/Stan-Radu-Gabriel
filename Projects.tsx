@@ -74,10 +74,10 @@ const Projects: React.FC = () => {
       description:
         "Spectacol artistic cu scop caritabil, organizat integral de Consiliul Elevilor, fără îndrumarea unui cadru didactic. Evenimentul s-a desfășurat exclusiv cu participarea elevilor liceului, fiind conceput și coordonat de elevi, de la organizare până la desfășurarea pe scenă. Fondurile obținute au fost direcționate către o cauză umanitară, promovând implicarea civică, responsabilitatea socială și capacitatea de auto-organizare a elevilor.",
       images: [
-        "/assets/projects/evenimentcaritabil/616498912_26818998364403129_4434897387479816277_n.jpg",
-        "/assets/projects/evenimentcaritabil/616813704_1440945647534401_8578377139111440681_n.jpg",
-        "/assets/projects/evenimentcaritabil/619364629_1218152946383052_8378309681639668239_n.jpg",
-        "/assets/projects/evenimentcaritabil/619652806_879853868239633_3597597925037120914_n.jpg",
+        "assets/projects/evenimentcaritabil/616498912_26818998364403129_4434897387479816277_n.jpg",
+        "assets/projects/evenimentcaritabil/616813704_1440945647534401_8578377139111440681_n.jpg",
+        "assets/projects/evenimentcaritabil/619364629_1218152946383052_8378309681639668239_n.jpg",
+        "assets/projects/evenimentcaritabil/619652806_879853868239633_3597597925037120914_n.jpg",
       ],
     },
     {
@@ -86,8 +86,8 @@ const Projects: React.FC = () => {
       description:
         "Un proiect de conștientizare ecologică în care participanții realizează produse și planșe creative din materiale reciclabile, promovând astfel sustenabilitatea.",
       images: [
-        "/assets/projects/ecocreatii/project1.jpg",
-        "/assets/projects/ecocreatii/project12.jpg",
+        "assets/projects/ecocreatii/project1.jpg",
+        "assets/projects/ecocreatii/project12.jpg",
       ],
     },
     {
@@ -96,9 +96,9 @@ const Projects: React.FC = () => {
       description:
         "Un eveniment festiv dedicat elevilor din clasa a IX-a, cu momente artistice, concursuri și distracție, pentru a-i întâmpina oficial în viața liceului.",
       images: [
-        "/assets/projects/balulbobocilor/project31.jpg",
-        "/assets/projects/balulbobocilor/project32.jpg",
-        "/assets/projects/balulbobocilor/project33.jpg",
+        "assets/projects/balulbobocilor/project31.jpg",
+        "assets/projects/balulbobocilor/project32.jpg",
+        "assets/projects/balulbobocilor/project33.jpg",
       ],
     },
     {
@@ -107,9 +107,9 @@ const Projects: React.FC = () => {
       description:
         "O activitate de 1 Decembrie în care elevii decorează sălile cu elemente și simboluri naționale, sărbătorind împreună Ziua Națională.",
       images: [
-        "/assets/projects/ornareaclaselor/project21.jpg",
-        "/assets/projects/ornareaclaselor/project22.jpg",
-        "/assets/projects/ornareaclaselor/project23.jpg",
+        "assets/projects/ornareaclaselor/project21.jpg",
+        "assets/projects/ornareaclaselor/project22.jpg",
+        "assets/projects/ornareaclaselor/project23.jpg",
       ],
     },
   ];
