@@ -20,7 +20,7 @@ Experience the website in action: [https://iam269.github.io/Stan-Radu-Gabriel/](
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Frontend**: React, TypeScript, Vite
 - **Styling**: Custom CSS with modern design principles
 - **Fonts**: Google Fonts (Inter family)
 - **Icons**: Custom PNG icons and Unicode emojis
@@ -30,18 +30,29 @@ Experience the website in action: [https://iam269.github.io/Stan-Radu-Gabriel/](
 
 ```
 stan-radu-gabriel/
+├── public/
+│   ├── assets/         # Media resources
+│   │   ├── CV/         # Curriculum Vitae
+│   │   ├── profile/    # Profile images
+│   │   └── projects/   # Project showcase images
+│   └── icons/          # Social media icons
+├── src/
+│   ├── components/     # React components
+│   │   ├── App.tsx
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Projects.tsx
+│   │   ├── AllProjects.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Footer.tsx
+│   │   └── Navbar.tsx
+│   ├── styles.css      # Comprehensive styling
+│   ├── main.tsx        # Entry point
+│   └── vite-env.d.ts
 ├── index.html          # Main HTML structure
-├── styles.css          # Comprehensive styling
-├── script.js           # Interactive functionalities
-├── assets/             # Media resources
-│   ├── CV.jpg         # Curriculum Vitae
-│   ├── profile-photo.jpg
-│   ├── person.png
-│   └── project*.jpg   # Project showcase images
-└── icons/             # Social media icons
-    ├── email.png
-    ├── facebook.png
-    └── instagram.png
+├── package.json
+├── vite.config.js
+└── tsconfig.json
 ```
 
 ## ✨ Key Features
