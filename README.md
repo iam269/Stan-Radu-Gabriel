@@ -1,5 +1,7 @@
 # 🌟 Stan Radu Gabriel - Personal Portfolio Website 🌟
 
+![Presentation](presentation.png)
+
 Hello! 👋 I'm Stan Radu Gabriel, a passionate 10th-grade student and dedicated member of the Student Council at "Ștefan cel Mare" National College in Romania. This website was created by Ioniță Aurel-Mihai. This website is my personal portfolio project, showcasing my journey as a student leader committed to improving our school community through innovative initiatives and collaborative projects. Discover the impact we're making together! 🌟
 
 ## 📖 About the Project
