@@ -800,73 +800,200 @@ body {
 }
 
 /* Dark Mode */
-.dark body {
+body.dark {
   background-color: #1a1a1a;
   color: #ffffff;
 }
 
-.dark .navbar {
+body.dark .navbar {
   background-color: rgba(26, 26, 26, 0.95);
 }
 
-.dark .navbar-brand {
+body.dark .navbar-brand {
   color: #3b82f6;
 }
 
-.dark .navbar-menu a {
+body.dark .navbar-menu a {
   color: #ffffff;
 }
 
-.dark .about {
+body.dark .navbar-menu a:hover {
+  color: #3b82f6;
+}
+
+body.dark .mobile-menu-btn span {
+  background-color: #ffffff;
+}
+
+body.dark .about {
   background-color: #2a2a2a;
 }
 
-.dark .projects {
+body.dark .projects {
   background-color: #1a1a1a;
 }
 
-.dark .project-card {
+body.dark .project-card {
   background: #333;
   color: #ffffff;
 }
 
-.dark .section-header h2 {
+body.dark .project-content h3 {
   color: #ffffff;
 }
 
-.dark .about-text p {
+body.dark .project-content p {
   color: #cccccc;
 }
 
-.dark .hero {
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.9), rgba(37, 99, 235, 0.9));
-}
-
-.dark .hero h1 {
+body.dark .section-header h2 {
   color: #ffffff;
 }
 
-.dark .hero p {
+body.dark .section-header p {
   color: #cccccc;
 }
 
-.dark .hero .highlight {
+body.dark .about-text h3 {
   color: #3b82f6;
 }
 
-.dark .btn-primary {
+body.dark .about-text p {
+  color: #cccccc;
+}
+
+body.dark .about-text h4 {
+  color: #ffffff;
+}
+
+body.dark .quote {
+  color: #3b82f6;
+}
+
+body.dark .hero {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.95), rgba(37, 99, 235, 0.95));
+}
+
+body.dark .hero-content {
+  color: #ffffff;
+}
+
+body.dark .hero h1 {
+  color: #ffffff;
+}
+
+body.dark .hero p {
+  color: #cccccc;
+}
+
+body.dark .hero-quote {
+  color: #ffffff;
+}
+
+body.dark .divider {
+  background-color: #3b82f6;
+}
+
+body.dark .btn-primary {
   background-color: #3b82f6;
   color: white;
 }
 
-.dark .btn-outline {
+body.dark .btn-primary:hover {
+  background-color: #2563eb;
+}
+
+body.dark .btn-outline {
   color: #3b82f6;
   border-color: #3b82f6;
 }
 
-.dark .btn-outline:hover {
+body.dark .btn-outline:hover {
   background-color: #3b82f6;
   color: white;
+}
+
+body.dark .theme-toggle {
+  color: #ffffff;
+}
+
+body.dark .theme-toggle:hover {
+  color: #3b82f6;
+}
+
+body.dark .modal-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+body.dark .modal-content {
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+body.dark .modal-left h2 {
+  color: #ffffff;
+}
+
+body.dark .modal-left p {
+  color: #cccccc;
+}
+
+body.dark .close-btn {
+  background: #3b82f6;
+}
+
+body.dark .nav-btn {
+  background: #3b82f6;
+}
+
+body.dark .nav-btn:hover {
+  background: #2563eb;
+}
+
+body.dark .carousel-btn {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+body.dark .carousel-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+body.dark .contact {
+  background-color: #1a1a1a;
+}
+
+body.dark .contact-card {
+  background: #333;
+  color: #ffffff;
+}
+
+body.dark .contact-info h4 {
+  color: #ffffff;
+}
+
+body.dark .contact-info a {
+  color: #3b82f6;
+}
+
+body.dark .contact-info a:hover {
+  color: #2563eb;
+}
+
+body.dark .contact-quote {
+  background-color: #333;
+  color: #ffffff;
+}
+
+body.dark .footer {
+  background-color: #1a1a1a;
+}
+
+body.dark .recent-projects-title {
+  color: #3b82f6;
+}
+
+body.dark .gallery {
+  background-color: #2a2a2a;
 }
 
 .theme-toggle {
@@ -883,11 +1010,11 @@ body {
   color: #2563eb;
 }
 
-.dark .theme-toggle {
+body.dark .theme-toggle {
   color: #ffffff;
 }
 
-.dark .theme-toggle:hover {
+body.dark .theme-toggle:hover {
   color: #3b82f6;
 }
 

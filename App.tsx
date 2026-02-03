@@ -128,7 +128,7 @@ const App: React.FC = () => {
       <Navbar />
       <Hero />
       <About />
-      <Projects />
+      <AllProjects />
       <Contact />
       <Footer />
     </>
@@ -140,7 +140,7 @@ const App: React.FC = () => {
     <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<><Navbar /><AllProjects /><Footer /></>} />
+        <Route path="/projects" element={<><Navbar /><Projects /><Footer /></>} />
       </Routes>
     </BrowserRouter>
   );
